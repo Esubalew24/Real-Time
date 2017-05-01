@@ -1,8 +1,11 @@
 # Arduino GPS-2-Map Tracker Application - README.md #
+[Demo](http://5kilo.com/gps-2-map/map.php)
+Username: admin
+Password: admin
 
-This repository contains Arduino GPS-2-Map Tracker application develop by Ari Kairala, Risto Juntunen, Esubalew Workineh and Yurong Zhao as course work for Real Time Distributed Software Development -course of Univeristy Oulu.
+This repository contains Arduino GPS-2-Map Tracker application develop by Esubalew Workineh, Ari Kairala, Risto Juntunen,and Yurong Zhao as course work for Real Time Distributed Software Development -course of Univeristy Oulu.
 
-The project aimed to build a location tracking system for visually impaired persons using Arduino-microcontroller unit and a web server. The Arduino unit uses separate GPS-module added to it to capture current location of the device. It then sends the location coordinates with time information for the web server through a network connection that is established with Arduino’s on-board WiFi-module. After that, the real time location of the device will be updated and displayed on a Google Map-view displayed on a website located on the web server. The website will also contain a place for a video stream data extension, that will be developed outside this project in future.
+The project aimed to build a location tracking system for visually impaired persons using Arduino-microcontroller unit and a web server. The Arduino unit uses separate GPS-module added to it to capture current location of the device. It then sends the location coordinates with time information for the web server through a network connection that is established with Arduinoâ€™s on-board WiFi-module. After that, the real time location of the device will be updated and displayed on a Google Map-view displayed on a website located on the web server. The website will also contain a place for a video stream data extension, that will be developed outside this project in future.
 
 ### This project repository contains two separate folders ###
 * Device - Code for Arduino-microcontroller unit (C++)
